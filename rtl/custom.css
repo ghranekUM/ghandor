@@ -1,0 +1,186 @@
+/* Custom Styles */
+
+@import url("https://fonts.googleapis.com/css?family=Tajawal:400,500,700&display=swap");
+
+body {
+  direction: rtl;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.banner-section-two .content-box .title,
+.btn-style-five,
+.theme-btn {
+  font-family: "Tajawal", sans-serif;
+}
+
+.main-header .info-box {
+  max-width: 325px;
+}
+
+.main-header .logo-outer .logo img {
+  max-width: 160px;
+}
+
+.IsSticky.xs-sticky-header .xs-onepage-logo img {
+  max-width: 160px;
+}
+
+.main-header .header-lower .outer-box .theme-btn {
+  font-family: inherit;
+}
+
+.banner-section-two .owl-prev,
+.banner-section-two .owl-next {
+  font-size: 13px;
+}
+
+.header-style-two .social-box li.youtube a {
+  color: #ff0000;
+  border-color: #ff0000;
+}
+
+.header-style-two .social-box li.youtube a:hover {
+  background-color: #ff0000;
+  color: #ffffff;
+}
+
+.main-header .info-box.header-bars li {
+  line-height: 23px;
+}
+
+.main-header .info-box.header-bars li a {
+  color: #333;
+}
+
+.main-header .info-box.header-bars li a:hover {
+  text-decoration: underline;
+}
+
+.btn-style-five:hover {
+  color: #fff;
+  border-color: #fff;
+}
+
+.services-block .inner-box p {
+  line-height: 23px;
+  margin-right: 135px;
+  font-size: 13px;
+  margin-top: 15px;
+}
+
+.services-block .inner-box {
+  min-height: 230px;
+}
+
+.services-block .icon-box .icon {
+  width: 120px;
+  display: block;
+}
+
+.services-block .icon-box .icon img,
+.services-block .icon-box .icon svg {
+  max-width: 100px;
+}
+
+.IsSticky.xs-sticky-header {
+  z-index: 9999999;
+}
+
+.fullwidth-section .inner-column {
+  position: relative;
+  padding: 113px 15px 107px 100px;
+}
+
+.fullwidth-section .full-column {
+  position: relative;
+  float: right;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.fullwidth-section .full-column .phone {
+  position: relative;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 2.4em;
+  display: block;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
+  max-width: 790px;
+  margin: auto;
+}
+
+.fullwidth-section .full-column .icon-box {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  color: #ffffff;
+  font-size: 64px;
+  line-height: 1em;
+  margin-top: 20px;
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.fullwidth-section .full-column .phone .phone-inner {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.fullwidth-section .full-column .phone .title {
+  position: relative;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 2.4em;
+  display: block;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
+}
+
+.fullwidth-section .full-column .phone strong {
+  font-weight: 700;
+  color: #ffffff;
+  display: block;
+  font-size: 46px;
+  -webkit-transition: all 300ms ease;
+  -ms-transition: all 300ms ease;
+  -o-transition: all 300ms ease;
+  -moz-transition: all 300ms ease;
+  transition: all 300ms ease;
+  direction: ltr;
+}
+
+.fullwidth-section .phone:hover .title,
+.fullwidth-section .phone:hover strong {
+  color: #222222;
+}
+
+.video-section .play-now {
+  direction: ltr;
+}
+
+@media only screen and (max-width: 750px) {
+  .banner-section-two .owl-dots,
+  .owl-nav {
+    display: none;
+  }
+  .booking-section .content-column .inner-column {
+    padding-right: 0;
+  }
+}
